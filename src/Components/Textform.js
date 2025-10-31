@@ -45,7 +45,7 @@ export default function Textform(props) {
           <label htmlFor="Textform1" className="form-label"><h3>Result</h3></label>
           <textarea className="form-control" value={Text} id="Textform1" rows="6"></textarea>
       </div>
-    <div className="container mt-9  " style={{backgroundColor: '#D72323', color:'#3E3636'} }>
+    <div className="container mt-9  " style={{backgroundColor: '#f4a6a6ff', color:'#0e0d0dff'} }>
       <h3>Total no of words and characters</h3>
       <p><b>words = {Text.trim()===''? 0 :Text.trim().split(/\s+/).length}<br></br> Character = {Text.length}</b></p>
       <h3>preview</h3>
